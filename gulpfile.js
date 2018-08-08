@@ -48,4 +48,4 @@ gulp.task('server',['build'], function() {
     gulp.watch("source/js/*.js",['scripts'], browserSync.reload);
 });
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['server']);
