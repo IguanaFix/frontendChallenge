@@ -36,7 +36,7 @@ gulp.task('clean:all', function() {
 
 gulp.task('build', gulpSequence('clean:all', 'styles', 'scripts', 'images', 'html'));
 
-gulp.task('server', function() {
+gulp.task('server',['build'], function() {
     browserSync.init({
         server: {
             baseDir: "public"
