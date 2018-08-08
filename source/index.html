@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+      <title>Iguanafix</title>
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <nav class="nav-iguanafix">
+               <div class="logo">
+                  <a href="#">
+                  <img src="img/logo.svg" alt="iguanafix">
+                  </a>
+                  <p class="telephon">08010-220-6173</p>
+               </div>
+               <ul>
+                  <li><a href="">Casa</a></li>
+                  <li><a href="">Auto</a></li>
+                  <li><a href="">Empresa</a></li>
+                  <li><a href="">Ingresar</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div class="container">
+         <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item"><a href="#"><Contratar></Contratar> un servicio</a></li>
+               <li class="breadcrumb-item"><a href="#">Instalacion de aire acondicionado</a></li>
+            </ol>
+         </nav>
+      </div>
+      <section id="product-view">
+         <div class="container">
+            <div class="product-image">
+               <div class="minify">
+                  <img src="http://via.placeholder.com/80x80" id="carrousel0" onclick="products.setMainImage(this.src)" alt="">
+                  <img src="http://via.placeholder.com/80x80" id="carrousel1" onclick="products.setMainImage(this.src)" alt="">
+                  <img src="http://via.placeholder.com/80x80" id="carrousel2" onclick="products.setMainImage(this.src)" alt="">
+               </div>
+               <img src="http://via.placeholder.com/400x600" id="carrouselMain" width=400 height=400 class="product" alt="">
+               <div class="datos">
+                  <div class="options">                  
+                     <h2 class="produc-name">
+                        Instalación de aire acondicionado split.
+                     </h2>
+                     <p class="price">
+                        $3.199
+                     </p>
+                     <h3>Frigorías</h3>
+                     <select class="category-product" onchange="products.select(this.value)">
+                     <option selected>Elegir opcion...</option>
+                     </select>
+
+                     <div class="form-group form-group-options box">
+                        <div id="1" class="input-group input-group-option quantity-wrapper">
+                           <span  class="input-group-addon input-group-addon-remove quantity-remove btn">
+                           <span class="glyphicon glyphicon-minus"></span>
+                           </span>
+                           <input  id="1inp" type="text" value="6" name="option[]" class="form-control quantity-count" placeholder="1">
+                           <span class="input-group-addon input-group-addon-remove quantity-add btn">
+                           <span class="glyphicon glyphicon-plus"></span>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <button class="program">
+                     programar visita
+                  </button>
+                  <ul>
+                     <li class="title">Qué incluye</li>
+                     <li><a href="#">Desinstalación del equipo anterior</a></li>
+                     <li><a href="#">Desinstalación del equipo anterior</a></li>
+                     <li><a href="#">Desinstalación del equipo anterior</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="recommended">
+         <div class="accordion">
+         <h3 id="includes">Detalles del servicio</h3><h3 id="not-includes">Que no incluye</h3>   
+         </div>
+         <div class="result">
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos reiciendis ducimus libero minima molestiae odio tempore nesciunt dignissimos ratione quae porro fugit eveniet tenetur, laborum veritatis fugiat omnis praesentium totam.
+            </p>
+            
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quam placeat in, porro quod molestias tenetur eligendi nisi tempora alias! Nisi architecto libero asperiores voluptate amet, animi iste at, suscipit.
+            </p>
+         </div>
+         <div class="upsell">
+            <div class="row">            
+               <div class="col-md-4">
+                <img src="" alt="..." id="upsell0">
+                <div class="caption">
+                  <h3 id="title0"></h3>
+                  <p id="description0"></p>
+                  <button class="contract">contratar</button>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <img src="" alt="..." id="upsell1">
+                <div class="caption">
+                  <h3 id="title1"></h3>
+                  <p id="description1"></p>
+                  <button class="contract">contratar</button>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <img src="" alt="..." id="upsell2">
+                <div class="caption">
+                  <h3 id="title2"></h3>
+                  <p id="description2"></p>
+                  <button class="contract">contratar</button>
+                </div>
+               </div>
+            </div>
+
+
+         </div>
+      </section>
+
+      <footer>
+         <div class="container">         
+            <div class="logo">
+               <a href="#">
+                  <img src="img/logo-footer.svg" alt="iguanafix">
+               </a>
+               <ul>
+                  <li>redes</li>
+                  <li>redes</li>
+                  <li>redes</li>
+                  <li>redes</li>
+                  <li>redes</li>
+                  <li>redes</li>
+               </ul>
+            </div>
+            <h4>Casa</h4>
+            <div class="footer">
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>                  
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+            </div>
+            <h4>Autos</h4>
+            <div class="footer">
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>                  
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+               <ul>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+                  <li><a href="">Albañilería</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="copyright">
+            <div class="container-copy">            
+               <p>@Copyright 2016. All right reserved | IguanaFix</p>
+               <ul>
+                  <li><img class="app" src="img/google.png" alt=""> </li>
+                  <li><img class="app" src="img/apple.png" alt=""> </li>
+                  <li><img class="qr" src="img/fiscal.jpg" alt=""> </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="/js/main.js"></script>
+      <script type="text/javascript" src="/js/request.js"></script>
+   </body>
+</html>

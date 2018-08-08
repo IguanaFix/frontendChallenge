@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 47.098">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ff4081;
+      }
+
+      .cls-3 {
+        stroke: #ff4081;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="baseline-credit_card-24px" transform="translate(0 0.1)">
+    <path id="Path_799" data-name="Path 799" class="cls-1" d="M0,.9H46.1V47H0Z" transform="translate(0 0)"/>
+    <path id="Path_800" data-name="Path 800" class="cls-2" d="M1.8,17.162H38.486V11.4H1.8Z" transform="translate(1.657 9.668)"/>
+    <path id="Path_801" data-name="Path 801" class="cls-3" d="M35.973,7.4H5.241A3.853,3.853,0,0,0,1.4,11.241V32.37a3.853,3.853,0,0,0,3.841,3.841H35.973a3.853,3.853,0,0,0,3.841-3.841V11.241A3.853,3.853,0,0,0,35.973,7.4Z" transform="translate(1.289 5.985)"/>
+    <path id="Path_802" data-name="Path 802" class="cls-2" d="M13.3,10.662H49.794V4.9H13.3v5.762Z" transform="translate(12.246 3.683)"/>
+    <path id="Path_803" data-name="Path 803" class="cls-3" d="M28.358,29.711H47.373a3.853,3.853,0,0,0,3.841-3.841V4.741A3.853,3.853,0,0,0,47.373.9H16.641A3.853,3.853,0,0,0,12.8,4.741v7.875" transform="translate(11.785)"/>
+  </g>
+</svg>

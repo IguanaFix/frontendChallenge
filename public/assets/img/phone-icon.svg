@@ -1,0 +1,15 @@
+<svg id="baseline-phone-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Path_791" data-name="Path 791" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="Path_792" data-name="Path 792" class="cls-2" d="M6.6,10.8a15.568,15.568,0,0,0,6.6,6.6l2.2-2.2a.8.8,0,0,1,1-.2,10.46,10.46,0,0,0,3.6.6,1,1,0,0,1,1,1V20a1.075,1.075,0,0,1-1,1A16.986,16.986,0,0,1,3,4,1.075,1.075,0,0,1,4,3H7.5a1,1,0,0,1,1,1,11.325,11.325,0,0,0,.6,3.6,1.232,1.232,0,0,1-.2,1Z"/>
+</svg>

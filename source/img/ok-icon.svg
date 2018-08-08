@@ -1,0 +1,17 @@
+<svg id="baseline-done_outline-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ff4081;
+      }
+    </style>
+  </defs>
+  <path id="Path_795" data-name="Path 795" class="cls-1" d="M0,0H63V63H0Z"/>
+  <g id="Group_831" data-name="Group 831" transform="translate(0 5.775)">
+    <path id="Path_796" data-name="Path 796" class="cls-2" d="M51.975,5.875l7.35,7.35L22.05,50.5,3.675,32.125l7.35-7.613L20.212,33.7l1.838,1.838L23.887,33.7,51.975,5.875m0-3.675L22.05,31.863,11.025,20.837,0,32.125l22.05,22.05L63,13.225,51.975,2.2Z" transform="translate(0 -2.2)"/>
+  </g>
+</svg>
